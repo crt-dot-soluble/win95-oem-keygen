@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Core Build Settings -->
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <!-- Assembly & Product Metadata -->
+  <PropertyGroup>
+    <AssemblyName>Windows 95 Key Generator</AssemblyName>
+    <AssemblyTitle>Windows 95 Key Generator</AssemblyTitle>
+    <AssemblyProduct>Windows 95 Key Generator Cli</AssemblyProduct>
+    <AssemblyDescription>Generates OEM keys for Windows 95C OSR2.5</AssemblyDescription>
+    <AssemblyCompany>WarTime</AssemblyCompany>
+    <ProductName>Windows 95 Key Generator Cli</ProductName>
+    <ProductDescription>Generates OEM keys for Windows 95C OSR2.5</ProductDescription>
+    <Description>Generates OEM keys for Windows 95C OSR2.5</Description>
+    <Company>WarTime</Company>
+    <Authors>@crt-dot-soluble</Authors>
+    <Copyright>© WarTime 2025</Copyright>
+  </PropertyGroup>
+  <!-- Versioning -->
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageVersion>1.0.0</PackageVersion>
+  </PropertyGroup>
+  <!-- NuGet Package Metadata -->
+  <PropertyGroup>
+    <PackageId>WarTime.Win95KeyGen.Cli</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/crt-dot-soluble/win95-oem-keygen</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <!-- Single-File / Self-Contained Publishing -->
+  <PropertyGroup>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <PublishTrimmed>true</PublishTrimmed>
+    <PublishAot>true</PublishAot>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  </PropertyGroup>
+  <!-- Project References -->
+  <ItemGroup>
+    <ProjectReference Include="..\Lib\Lib.csproj" />
+  </ItemGroup>
+</Project>

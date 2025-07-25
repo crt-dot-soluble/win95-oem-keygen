@@ -1,0 +1,50 @@
+# .gitignore for .NET/C# project (Windows 95 OEM Key Generator)
+# Build results
+bin/
+obj/
+dist/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.userconfig
+*.vs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Logs
+*.log
+
+# Other
+*.pdb
+*.cache
+*.dbmdl
+*.bak
+*.tmp
+
+# OneDrive
+*.lnk
+~$*
+
+# Ignore published output
+**/publish/
+
+# Ignore test results
+TestResults/
+
+# Ignore secrets
+secrets.json
