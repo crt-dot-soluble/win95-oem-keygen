@@ -110,7 +110,7 @@ AAAAA-OEM-BBBBBBB-CCCCC
 
 ## ✅ Quick Validation Checklist
 
-- [ ] **AAAAA**: 5 digits; `DDD` ∈ [001–366]; `YY` ∈ [95–03]
+- [ ] **AAAAA**: 5 digits; `DDD` ∈ [001–366]; `YY` ∈ [95–02]
 - [ ] Contains literal `-OEM-` (case-sensitive)
 - [ ] **BBBBBBB**: 7 digits; first = 0; sum % 7 = 0; last ∉ {0, 8, 9}
 - [ ] **CCCCC**: any 5 numeric digits
