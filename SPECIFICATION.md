@@ -47,7 +47,7 @@ AAAAA-OEM-BBBBBBB-CCCCC
   - `YY`: Year (95–02)
 - **Constraints:**
   - `DDD` ∈ [001, 366], no leap-year enforcement
-  - `YY` ∈ [95, 03]
+  - `YY` ∈ [95, 02]
 
 ---
 
